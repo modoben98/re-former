@@ -61,3 +61,6 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+# Add bcrypt for authentication purpose
+gem "bcrypt", "~> 3.1.7"
